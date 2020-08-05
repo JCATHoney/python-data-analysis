@@ -109,11 +109,11 @@ card_t7=card_t6.reset_index()
 card_t7.to_sql('card_t7', con)
 card_t8=pd.read_sql('select * from card_t7 where type1="income"', con)
 # In[13]:
-sns.boxplot(x = 'type', y = 'amount2', data = card_t8)#
+sns.boxplot(x = 'type', y = 'avg_ammount', data = card_t8)#
 
 #%%
 card_t9=pd.read_sql('select * from card_t7 where type1="out"', con)
 # In[13]:
-sns.boxplot(x = 'type', y = 'amount2', data = card_t9)
+sns.boxplot(x = 'type', y = 'avg_ammount', data = card_t9)
 #%%
 
