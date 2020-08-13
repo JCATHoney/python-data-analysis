@@ -6,4 +6,5 @@
 3. 练习3：https://blog.csdn.net/J358935/article/details/107827323
 4. 练习4：https://blog.csdn.net/J358935/article/details/107855277
 5. 练习5：https://blog.csdn.net/J358935/article/details/107930109
+6. 练习6：https://blog.csdn.net/J358935/article/details/107975448
 
